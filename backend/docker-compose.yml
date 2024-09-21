@@ -1,7 +1,0 @@
-services:
-  sarayu-backend:
-    image: ayush1018/sarayu-assignment-backend:latest
-    ports:
-      - 8000:8000
-    volumes:
-      - ./.env:/src/app/.env
